@@ -65,4 +65,4 @@ Lib necessária:
 
 Links:
 
-TODO
+ * [Guia que fala principalmente sobre libs que dão problema](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)
