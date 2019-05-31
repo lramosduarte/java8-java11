@@ -63,6 +63,17 @@ Lib necessária:
     </dependency>
 ```
 
+#### JAVA EE
+
+Algumas libs do Java EE foram removidas, segunda proposta [JEP 320](http://openjdk.java.net/jeps/320#Java-EE-modules).
+Então é necessário fazer imports explicitos, todas as libs podem ser encontradas no `maven central`:
+```xml
+    <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+```
 Links:
 
  * [Guia que fala principalmente sobre libs que dão problema](https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9)
